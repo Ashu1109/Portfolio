@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+nav img{
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    z-index: 1;
+    left: 8rem;
+}
+.nav{
+    background: #222831;
+    margin: 10px 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px 4px;
+    position: sticky;
+    top: 10px;
+    z-index: 5;
+}
+.nav nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4rem;
+    align-items: center;
+    height: 5rem;
+
+}
+nav ul li{
+    list-style: none;
+}
+nav a:hover{
+    color: #FBA81F;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 0px 0.5rem;
+}
+.info button{
+    padding: 15px;
+    margin: 20px 20px 10px 0px;
+    border-radius: 10px;
+    border-style: none;
+    background-color:#FBA81F;
+    color: white;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    font-size: 2rem;
+    z-index: 2;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.devimg{
+    width: 25rem;
+    height: 30rem;
+    z-index: 1;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+    border-radius: 131% 50% 43%;
+}
+.info p{
+    font-size: 2rem;
+}
+.Hi{
+    word-spacing: 10px;
+    font-size: 1rem;
+}
+.name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: bolder 5rem;
+}
+.background{
+    z-index: 0;
+    position: absolute;
+    width: 35rem;
+    height: 40rem;
+    top: 2rem;
+    right: 2rem;
+}
+#contact:hover{
+    background-color:#FBA81F;
+    color: white;
+    transition: 0.4s;
+}
+#contact{
+    border-style: solid;
+    border-color: #FBA81F;
+    color:#FBA81F;
+    background-color: white;
+}
+.container{
+    width: 100vw;
+    height: 88vh;
+    z-index: 0;
+    position: relative;;
+    background-color: #F9F7F7;
+}
+.full{
+    z-index: -1;
+width: 80vw;
+height: 80vh;
+margin: auto;
+position: relative;
+top: 2rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #F9F7F7;
+}
+
+
+.footer{
+    width: 100vw;
+    height: 20vh;
+    background: #112D4E;
+}
+.footer a img{
+    border-radius: 20% 20%;
+    width: 2rem;
+    height: 2rem;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+.policy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.policy p a{
+    color: rgb(157, 157, 157);
+}
+#first{
+    word-spacing: 2rem;
+    font-size: 1rem;
+}
+#second{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.policy p a:hover{
+    color: aliceblue;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.blog{
+    padding: 2rem;
+    width: 95.5vw;
+    height: 90vh;
+    background: #DBE2EF;
+
+}
+.heading{
+    font-size: 2rem;
+    color: rgb(48, 48, 48);
+    font-family: 'Ubuntu', sans-serif;
+}
+.title{
+    color:#313131;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25rem;
+}
+.content{
+    margin: 5px 0px 10px 0px;
+    color:rgb(114, 107, 131);
+    font-size: 1.1rem;
+    font-size: bolder;
+}
+.project{
+    width: 95.5vw;
+    height: 120vh;
+    background: #3F72AF;
+    padding: 2rem;
+}
+.imgProject{
+    margin: 3rem 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.imgProject img{
+    margin: 10px;
+    width: 28rem;
+    height: 18rem;
+}
+.projectHeading{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.des{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: rgb(217, 214, 214);
+}
+.project2{
+    margin-top: 4rem;
+}
+.form{
+    background: #6c95c4;
+    width: 60vw;
+    height: 45vh;
+    margin: auto;
+    position: relative;
+    top:20%;
+    border-radius: 15% 15% 10% 10%;
+}
+.containerContact{
+    background: #DBE2EF;
+    width: 100vw;
+    height: 68vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.padding{
+    padding: 10px;
+}
+.padding label{
+    font-size: 1.2rem;
+    margin-right: 5px;
+    color: rgb(24, 24, 24);
+    font-family: 'Montserrat', sans-serif;
+}
+.padding input{
+    padding: 2px;
+}
+.comment label{
+    position: relative;
+    bottom: 3rem;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.containerContact p{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: bolder;
+}
